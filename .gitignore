@@ -1,0 +1,6 @@
+fastText/
+langdetect.bin
+langdetect.txt
+metrics/
+tempaltes/
+api.py
