@@ -4,3 +4,4 @@ langdetect.txt
 metrics/
 tempaltes/
 api.py
+.DS_Store

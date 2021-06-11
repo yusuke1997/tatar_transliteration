@@ -185,7 +185,7 @@ class predict():
                 head,predicted = self.concat_subword(head,predicted)
                 
                 for elm,lang in zip(head.split(),predicted):#最初のうちはとりあえず小文字でやってみよう
-                    print(elm,lang)
+                    #print(elm,lang)
                     transed_word+=self.trans.trans(elm,lang[0])
                 transed_word+=' '
                 #print()
