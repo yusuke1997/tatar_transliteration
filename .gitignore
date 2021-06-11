@@ -2,6 +2,6 @@ fastText/
 langdetect.bin
 langdetect.txt
 metrics/
-tempaltes/
+templates/
 api.py
 .DS_Store
