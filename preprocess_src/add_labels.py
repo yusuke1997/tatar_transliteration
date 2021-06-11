@@ -9,5 +9,6 @@ for i in range(1,len(sys.argv)):
     with open(sys.argv[i], 'r') as src:
         with open(sys.argv[i].rsplit('.',1)[0]+'.label','w') as tgt:
             label=sys.argv[i].rsplit('-',1)[0]
+            label=albel.split('/')[-1]
             for line in src:
                 tgt.write('__label__'+label+' '+line)
