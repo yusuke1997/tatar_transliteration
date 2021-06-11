@@ -1,2 +1,2 @@
-subword-nmt==0.37
+subword-nmt==0.3.7
 pyyaml
