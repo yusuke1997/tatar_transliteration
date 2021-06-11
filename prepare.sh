@@ -10,7 +10,7 @@ echo $DATA
 echo $SRC
 #prepare datasets
 sh download.sh
-
+pip3 install -r requirements.txt
 #parse
 #pip install subword-nmt
 
