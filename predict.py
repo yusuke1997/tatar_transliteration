@@ -8,8 +8,8 @@ import transfer
 class predict():
     def __init__(self):
         self.trans = transfer.trans()
-        self.model = load_model("langdetect.bin")
-        self.codes = codecs.open('model.bpe', encoding='utf-8')
+        self.model = load_model("model/langdetect.bin")
+        self.codes = codecs.open('model/model.bpe', encoding='utf-8')
         self.bpe = apply_bpe.BPE(codes=self.codes)
         self.table = str.maketrans('', '', string.punctuation)
         #self.bert_tokenize = bert_tokenize()
