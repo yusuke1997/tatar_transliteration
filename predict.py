@@ -30,7 +30,7 @@ class predict():
             #return (' '.join(words),' '.join(lower))
 
     def predict_language(self,word, k=1):
-        labels={}
+        labels=set()
         subword_elements=[]
         subword=word.split()
         for elm in subword:
